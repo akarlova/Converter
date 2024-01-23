@@ -20,8 +20,7 @@ public class CalcView {
     }
 
     public double getData() {
-        System.out.println("To convert into kilometers, please, " +
-                "enter your miles");
+        System.out.println("Please, enter your number");
         return sc.nextDouble();
     }
 
