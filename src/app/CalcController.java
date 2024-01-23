@@ -7,7 +7,7 @@ public class CalcController {
     public void getRes() {
         int option = view.getOpt();
         double value = view.getData();
-        view.getOutput(getOptRes(option,value));
+        view.getOutput(getOptRes(option, value));
 
     }
 
@@ -19,4 +19,5 @@ public class CalcController {
             case 0 -> res = Constants.APP_CLOSE_MSG;
         }
         return res;
+    }
 }
