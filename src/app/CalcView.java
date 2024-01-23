@@ -6,7 +6,18 @@ public class CalcView {
 
     Scanner sc = new Scanner(System.in);
 
+    public int getOpt() {
 
+        System.out.println(
+                """
+                        Choose your option:
+                        1 - miles to kilometers.
+                        2 - kilometers to miles.
+                                                
+                        """
+        );
+        return sc.nextInt();
+    }
 
     public double getData() {
         System.out.println("To convert into kilometers, please, " +
